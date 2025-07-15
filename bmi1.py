@@ -18,5 +18,5 @@ if st.button("계산하기"):
             st.write("비만 입니다.")
         if r > 30:
             st.write("고도비만 입니다.")
-    except Exception as e:
+    except:
         st.error("오류 발생")
