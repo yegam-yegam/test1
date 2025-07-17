@@ -1,6 +1,7 @@
 import streamlit as st
 
-"BMI 계산기"
+st.title("BMI 계산기")
+"yegam"
 l = st.number_input("키(cm)", value=0)
 w = st.number_input("몸무게(kg)", value=0)
 
