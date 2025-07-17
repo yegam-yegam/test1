@@ -1,9 +1,9 @@
 import streamlit as st
 
-st.title("BMI 계산기")
+"BMI 계산기"
 l = st.number_input("키(cm)", value=0)
 w = st.number_input("몸무게(kg)", value=0)
-하하하하
+
 if st.button("계산하기"):
     try:
         r = round(w/((l/100)**2), 2)
